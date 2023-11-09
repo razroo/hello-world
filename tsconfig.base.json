@@ -20,6 +20,9 @@
     "paths": {
       "@hello-world/common/styles": [
         "libs/common/styles/src/index.ts"
+      ],
+      "@hello-world/common/ui": [
+        "libs/common/ui/src/index.ts"
       ]
     }
   },
