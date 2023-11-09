@@ -38,6 +38,9 @@
       ],
       "@hello-world/data-services": [
         "libs/data-services/src/index.ts"
+      ],
+      "@hello-world/data-graphql": [
+        "libs/data-graphql/src/index.ts"
       ]
     }
   },
