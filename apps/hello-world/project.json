@@ -7,7 +7,9 @@
   "targets": {
     "build": {
       "executor": "@angular-devkit/build-angular:browser",
-      "outputs": ["{options.outputPath}"],
+      "outputs": [
+        "{options.outputPath}"
+      ],
       "options": {
         "outputPath": "dist/apps/hello-world",
         "index": "apps/hello-world/src/index.html",
@@ -19,7 +21,9 @@
           "apps/hello-world/src/favicon.ico",
           "apps/hello-world/src/assets"
         ],
-        "styles": ["apps/hello-world/src/styles.scss"],
+        "styles": [
+          "apps/hello-world/src/styles.scss"
+        ],
         "scripts": []
       },
       "configurations": {
@@ -38,8 +42,8 @@
           ],
           "fileReplacements": [
             {
-              "replace": "apps/hello-world/src/environments/environment.ts",
-              "with": "apps/hello-world/src/environments/environment.prod.ts"
+              "replace": "libs/common/environments/src/lib/environment.ts",
+              "with": "libs/common/environments/src/lib/environment.prod.ts"
             }
           ],
           "outputHashing": "all"
@@ -84,7 +88,9 @@
     },
     "test": {
       "executor": "@nx/jest:jest",
-      "outputs": ["{workspaceRoot}/coverage/apps/hello-world"],
+      "outputs": [
+        "{workspaceRoot}/coverage/apps/hello-world"
+      ],
       "options": {
         "jestConfig": "apps/hello-world/jest.config.ts",
         "passWithNoTests": true
