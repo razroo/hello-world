@@ -18,7 +18,7 @@ Parameters:
     Default: razroo.com
   AcmCertificateArn:
     Type: String
-    Default: arn:aws:acm:us-east-1:certificateName
+    Default: arn:aws:acm:us-east-1:arn:aws:acm:us-east-1:085636762666:certificate/cb29ef5d-73e4-4440-b8eb-affd72b6006f
 
 ###############################################################################
 Resources:
