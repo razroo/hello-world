@@ -26,6 +26,9 @@
       ],
       "@hello-world/home": [
         "libs/home/src/index.ts"
+      ],
+      "@hello-world/common/common-services": [
+        "libs/common/common-services/src/index.ts"
       ]
     }
   },
