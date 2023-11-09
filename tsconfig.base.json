@@ -23,6 +23,9 @@
       ],
       "@hello-world/common/ui": [
         "libs/common/ui/src/index.ts"
+      ],
+      "@hello-world/home": [
+        "libs/home/src/index.ts"
       ]
     }
   },
