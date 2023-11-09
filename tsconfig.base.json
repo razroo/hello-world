@@ -29,6 +29,9 @@
       ],
       "@hello-world/common/common-services": [
         "libs/common/common-services/src/index.ts"
+      ],
+      "@hello-world/common/common-guards": [
+        "libs/common/common-guards/src/index.ts"
       ]
     }
   },
